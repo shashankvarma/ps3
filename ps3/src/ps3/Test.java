@@ -10,10 +10,10 @@ public class Test extends Account {
 				+ " after deposit");
 		try {
 			test.withdraw(2500);
-			System.out.println("Balance after drawing $2500: "
+			System.out.println("Balance after drawing $500: "
 					+ test.getbalance());
 
-			System.out.println("Oh, you want to withdraw $10000");
+			System.out.println(" you want to withdraw $10000");
 			test.withdraw(10000);
 		} catch (InsufficientFundsException error) {
 			System.out.println("You have to pull $" + error.getAmount()
